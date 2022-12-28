@@ -1,0 +1,2 @@
+7z a -tzip <folder>.zip <folder>
+7z x <folder>.zip

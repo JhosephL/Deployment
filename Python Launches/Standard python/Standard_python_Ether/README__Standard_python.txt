@@ -1,0 +1,1 @@
+1). Execute '__Standard_python_Creation.bat'.2). Give the project name.3). Go to ".\src" and execute '__Standard_python_Compilation.bat'.
