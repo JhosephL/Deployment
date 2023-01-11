@@ -17,6 +17,7 @@ IF %errorlevel% == 1 GOTO exit
 	CD ..
 	
 	MOVE ".\Standard_G++_Ether\__Standard_G++_Compilation.bat" .\%PROJECTNAME%\src
+	MOVE ".\Standard_G++_Ether\__Standard_G++_Execution.bat" .\%PROJECTNAME%
 	MOVE ".\Standard_G++_Ether\README__Standard_G++.txt" .\%PROJECTNAME%
 	
 	CD .\%PROJECTNAME%\src\main

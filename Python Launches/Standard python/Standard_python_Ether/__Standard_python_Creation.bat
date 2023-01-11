@@ -17,6 +17,7 @@ IF %errorlevel% == 1 GOTO exit
 	CD ..
 	
 	MOVE ".\Standard_python_Ether\__Standard_python_Compilation.bat" .\%PROJECTNAME%\src
+	MOVE ".\Standard_python_Ether\__Standard_python_Execution.bat" .\%PROJECTNAME%
 	MOVE ".\Standard_python_Ether\README__Standard_python.txt" .\%PROJECTNAME%
 	
 	CD .\%PROJECTNAME%\src\main

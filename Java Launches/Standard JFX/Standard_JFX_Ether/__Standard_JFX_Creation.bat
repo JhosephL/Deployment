@@ -18,6 +18,7 @@ IF %errorlevel% == 1 GOTO exit
 	
 	MOVE .\Standard_JFX_Ether\lib .\%PROJECTNAME%
 	MOVE .\Standard_JFX_Ether\__Standard_JFX_Compilation.bat .\%PROJECTNAME%\src
+	MOVE .\Standard_JFX_Ether\__Standard_JFX_Execution.bat .\%PROJECTNAME%
 	MOVE .\Standard_JFX_Ether\Main.java .\%PROJECTNAME%\src\main
 	MOVE .\Standard_JFX_Ether\README__Standard_JFX.txt .\%PROJECTNAME%
 	

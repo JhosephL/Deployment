@@ -1,1 +1,1 @@
-1). Execute '__Standard_Creation.bat'.2). Give the project name.3). Go to ".\src" and execute '__Standard_Compilation.bat'.
+1). Execute '__Standard_Creation.bat'.2). Give the project name.3). Go to ".\src" and execute '__Standard_Compilation.bat'.4). In order to execute the program by double-clicking '__Standard_Execution.bat'.

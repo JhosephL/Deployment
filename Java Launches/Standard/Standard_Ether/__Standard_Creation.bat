@@ -17,6 +17,7 @@ IF %errorlevel% == 1 GOTO exit
 	CD ..
 	
 	MOVE .\Standard_Ether\__Standard_Compilation.bat .\%PROJECTNAME%\src
+	MOVE .\Standard_Ether\__Standard_Execution.bat .\%PROJECTNAME%
 	MOVE .\Standard_Ether\README__Standard.txt .\%PROJECTNAME%
 	
 	CD .\%PROJECTNAME%\src\main
